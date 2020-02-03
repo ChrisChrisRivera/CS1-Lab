@@ -1,70 +1,30 @@
-x= 4
-if x ==5:
-  print("hi")
-else:
-  print("yes")
+#There are 100 cars
+cars= 100
+#4 seats in the cars
+space_in_a_car= 4.0
+#there are 30 drivers
+drivers= 30
+#there are 90 passengers
+passengers= 90
+#cars not used
+cars_not_driven= cars - drivers
+#cars that are being driven 
+cars_driven= drivers
+#the amount of people that can carpool
+carpool_capacity= cars_driven * space_in_a_car
+#average amount of people per car
+average_passengers_per_car= passengers//cars_driven
 
-print(1==1 and 2==2)
-print(34==35 and 55==55)
 
-i = 2
-while i <=36:
-  print(i)
-  i = i + 2
-print("Finished!")
-
-i = 5
-while i <=40:
-  print(i)
-  i = i + 5
-print("done!")
-
-nums = [5, 6, 4]
-nums[2]= 34
-print(nums)
-
-print ("Hello World!")
-print ("Hello Again")
-print ("I like typing this.")
-print ("This is fun.")
-print ('yay! Printing.')
-print ("I'd much rather you'not'.")
-print ('I "said" do not touch this.')
-
-# A comment, this is so you can read your program later.
-# Anything after the # is ignored by python.print
-
-print ("I could have a code like this.")# and the comment after is ignored
-
-# You can also use a comment to "disable" or comment out a piece of code:
-# print "This won't run."
-
-print("This code will run.")
-# It prints the statement
-print("I will now count my chickens:")
-# Calculates the amount of Hens
-print("Hens", 25+30/6)
-# Calculates the amount of Roosters
-print("Roosters", 100-25*3%4)
-# States that they will count eggs
-print("Now I will count the eggs:")
-# Performs a calculation
-print(3 + 2 + 1 - 5 + 4 % 2 - 1/4 + 6)
-# True or False statement
-print("Is it true that 3 + 2 < 5 - 7?")
-# True or False statement
-print(3+2<5-7)
-# Asking the Answer for 3+2
-print("What us 3+2?", 3+2)
-# Asking the Answer for 5-7
-print("What is 5-7?", 5-7)
-# A clear statement
-print("Oh, that's why it's False.")
-# Asking for more statements
-print("How about some more.")
-# Asking if greater than 5
-print("Is it greater?", 5>-2)
-# Asking if greater than
-print("Is it greater or equal?", 5>=-2)
-# Asking if less than
-print("Is it less or equal?", 5<=-2)
+print("There are", cars, "cars available.")
+print("There are only", drivers, "drivers available.")
+print("There will be", cars_not_driven, "empty cars today.")
+print("We can transport", carpool_capacity, "people today.")
+print("We have", passengers, "to carpool today.")
+print("We need to put about", average_passengers_per_car, "in each car.")
+#There was an error because there is an underscore after "car" in "carpool"
+#1. It doesnt matter how you have "4" as long as you have it, the way you can change that is by add another dashed line while dividing like so "//"
+#2. it can be placed anywhere relative to the significant digits of the number
+j=13
+i=26
+print(j*i)
