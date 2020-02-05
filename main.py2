@@ -1,0 +1,34 @@
+# stating the amount of people
+x= "There are %d types of people." % 10
+# setting the definition of binary
+binary= "binary"
+# setting the definition of do_not
+do_not= "don't"
+# writing a statement using binary and do_not
+y= "Those who know %s and those who %s." % (binary, do_not)
+# print the letter x
+print(x)
+#print the letter y
+print(y)
+
+#print the variable x
+print("I said: %r." % x)
+#print the variable y
+print("I also said: '%s'." % y)
+
+# set the variable hilarious as false
+hilarious= False
+# set the variable joke_evaluation as a statement
+joke_evaluation= "Isn't that joke so funny?! %r"
+
+#print two previous variables
+print(joke_evaluation % hilarious)
+
+#set the w variable
+w= "This is the left side of..."
+#set the e variable
+e= "a string with a right side."
+
+#print the two variables w and e by adding them
+print(w + e)
+#it makes a longer string because it combining the two statements
