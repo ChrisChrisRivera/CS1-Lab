@@ -5,10 +5,38 @@ for i in data:
   else:
     print ("different")
 
+fname = input("Input your First Name : ")
+lname = input("Input your Last Name : ")
+print ("Hello " + lname + " " + fname)
+
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
+
+x = input("Input the first number")
+y = input("Input the second number")
+z = input("Input the third number")
+print("Median of the above three numbers -")
+
+if y < x and x < z:
+  print(x)
+elif z < x and x < y:
+  print(x)
+elif z < y and y < x:
+  print(y)
+elif x < y and y < z:
+  print(y)
+elif y < z and z < x:
+  print(z)
+elif x < z and z < y:
+  print(z)
+
 def pythagoras(opposite_side,adjacent_side,hypotenuse):
   if opposite_side == str("x"):
     return ("Opposite = " + str(((hypotenuse**2) -
-(adjacent_side**2))**0.5)
+(adjacent_side**2))**0.5))
   elif adjacent_side == str("x"):
     return ("Adjacent = " + str(((hypotenuse**2) -
 (opposite_side**2))**0.5))
