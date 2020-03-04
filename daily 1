@@ -1,0 +1,33 @@
+def function(string1, string2):
+  if(string1 in string2):
+    print("yes")
+  else:
+    print("no")
+
+
+function("Houston", "Sam Houston")
+
+our_string="aaabbbccc"
+result=""
+for letter in our_string:
+  if (letter not in result):
+    result+=letter
+print(result)
+
+print("REALLY CLOSE TO MASTER".lower())
+
+test1="Agjkdfj"
+test2="Cljlskd"
+test3="Bskjdfj"
+
+def test_my_String(my_str):
+  if(my_str.startswith("A") or my_str.startswith("B") or my_str.startswith("C")):
+    print("correct")
+  else:
+    print("incorrect")
+
+test_my_String(test1)
+test_my_String(test2)
+test_my_String(test3)
+
+
