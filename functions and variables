@@ -1,0 +1,40 @@
+#defines the cheese_and_crackers function
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+  #prints the amount of cheeses
+  print(f"You have {cheese_count} cheeses!")
+  #prints the amount of crackers
+  print(f"You have {boxes_of_crackers} boxes of crackers!")
+  #prints a statement regarding the amount of both items
+  print("Man that's enough for a party!")
+  #states to get a blanket for the event
+  print("Get a blanket.\n")
+
+
+#States we can edit the funcitons numbers
+print("We can just give the function numbers directly:")
+#the modifers of the cheese_and_crackers variable
+cheese_and_crackers(20, 30)
+
+
+#states that we can modify the new variables still
+print("OR, we can use variables from our script:")
+#new amount of cheese
+amount_of_cheese = 10
+#new amount of crackers
+amount_of_crackers = 50
+
+#resets the variabel for cheese and crackers
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+
+
+#one can set varibale with math
+print("We can even do math inside too:")
+#sets the math for variable
+cheese_and_crackers(10 + 20, 5 + 6)
+
+
+#one can use both math and varibale to print a funcion
+print("And we can combine the two, variables and math:")
+#adding math to a variable
+cheese_and_crackers(amount_of_cheese + 100,
+amount_of_crackers + 1000)
